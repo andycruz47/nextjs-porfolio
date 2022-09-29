@@ -1,4 +1,4 @@
-# Next Simple Portfolio
+# Andy Cruz Next Portfolio
 ![](./screenshot.png)
 
 # Tools
