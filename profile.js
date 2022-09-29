@@ -120,7 +120,7 @@ export const projects = [
     description:
       "Pagina web que permite el alquiler de departamentos en Lima utilizando la tecnologia Blockchain, desarrollado con el lenguaje Solidity.",
     link: "https://andycruz47.github.io/BlockRentPE/",
-    image: "blockrentpe.png",
+    image: "blockrentpe.jpg",
   },
 
   {
