@@ -128,21 +128,21 @@ export const projects = [
     description:
       "Diagramación y simulación un modelo de propagacion de Fake News con la herramienta  Vensim.",
     link: "https://github.com/andycruz47/fakenews",
-    image: "fakenews.png",
+    image: "fakenews.jpg",
   },
   {
     name: "Keylogger hecho en Python",
     description:
       "Keylogger desarrollado en Python se ejecuta tanto en el sistema operatico Linux como en Windows.",
     link: "https://github.com/andycruz47/Keylogger",
-    image: "keylogger.png",
+    image: "keylogger.jpg",
   },
   {
     name: "Simulador de un Sistema Operativo",
     description:
       "Simulador de un sistema operativo basado en UNIX, desarrollado con el lenguaje de programacion Java.",
     link: "https://github.com/andycruz47/Simulador-de-SO",
-    image: "simuladorSO.png",
+    image: "simuladorSO.jpg",
   }
 ];
 
