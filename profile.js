@@ -116,6 +116,14 @@ export const languages = [
 
 export const projects = [
   {
+    name: "Expansión de la Industria Textil",
+    description:
+      "Visualización hecha en Tableau que ayuda a decidir a que estado de Australia expandirse.",
+    link: "https://public.tableau.com/views/nalisisdelaExpansionenlaIndustriaTextilenAustralia/Presentacionfinal?:language=es-ES&:display_count=n&:origin=viz_share_link",
+    image: "expansiontextil.jpg",
+  },
+
+  {
     name: "BlockRentPE",
     description:
       "Pagina web que permite el alquiler de departamentos en Lima utilizando la tecnologia Blockchain, desarrollado con el lenguaje Solidity.",
