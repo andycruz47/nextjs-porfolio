@@ -120,7 +120,7 @@ export const projects = [
     description:
       "Visualización hecha en Tableau que ayuda a decidir a que estado de Australia expandirse.",
     link: "https://public.tableau.com/views/nalisisdelaExpansionenlaIndustriaTextilenAustralia/Presentacionfinal?:language=es-ES&:display_count=n&:origin=viz_share_link",
-    image: "expansiontextil.jpg",
+    image: "textil.jpg",
   },
 
   {
