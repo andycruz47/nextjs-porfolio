@@ -5,6 +5,16 @@ export const skills = [
     percentage: 100,
   },
   {
+    skill: "Python",
+    level: "Avanzado",
+    percentage: 100,
+  },
+  {
+    skill: "SQLServer, Oracle, PostgreSQL",
+    level: "Avanzado",
+    percentage: 100,
+  },
+  {
     skill: "Power BI",
     level: "Intermedio",
     percentage: 70,
@@ -16,16 +26,6 @@ export const skills = [
   },
   {
     skill: "PL/SQL",
-    level: "Intermedio",
-    percentage: 70,
-  },
-  {
-    skill: "SQLServer, Oracle, PostgreSQL",
-    level: "Intermedio",
-    percentage: 70,
-  },
-  {
-    skill: "Python",
     level: "Intermedio",
     percentage: 70,
   },
@@ -141,7 +141,7 @@ export const projects = [
   {
     name: "Keylogger hecho en Python",
     description:
-      "Keylogger desarrollado en Python se ejecuta tanto en el sistema operatico Linux como en Windows.",
+      "Keylogger desarrollado en Python que se ejecuta tanto en el sistema operativo Linux como en Windows.",
     link: "https://github.com/andycruz47/Keylogger",
     image: "keylogger.jpg",
   },

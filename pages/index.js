@@ -15,7 +15,7 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1>Andy Cruz</h1>
-              <h3>Egresado Ingeniería de sistemas | Data Analyst | BI | Data Science | Data Engineering</h3>
+              <h3>Data Analyst | Python | SQL | Tableau | Power BI | PL/SQL</h3>
               <p>
               Egresado en la carrera de Ingeniería de Sistemas en la Universidad Nacional de Ingeniería, con experiencia en análisis de datos, base de datos y programación, con mucho interés en el mundo de los datos: Data Science, Data Analytics y Data Engineering.
               </p>
