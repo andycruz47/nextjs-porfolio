@@ -11,7 +11,7 @@ const Github = ({ user, statusCode }) => {
       <div className="row">
         <div className="col-md-4 offset-md-4">
           <div className="card card-body text-center">
-            <h1>{user.name}</h1>
+            <h2 className="font-weight-bold">{user.name}</h2>
             <img src={user.avatar_url} alt="" style={{ width: "100%" }} />
             <p>{user.bio}</p>
 

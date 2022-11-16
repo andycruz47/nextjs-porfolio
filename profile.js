@@ -10,7 +10,7 @@ export const skills = [
     percentage: 100,
   },
   {
-    skill: "SQLServer, Oracle, PostgreSQL",
+    skill: "SQLServer, Oracle",
     level: "Avanzado",
     percentage: 100,
   },
@@ -26,6 +26,11 @@ export const skills = [
   },
   {
     skill: "PL/SQL",
+    level: "Intermedio",
+    percentage: 70,
+  },
+  {
+    skill: "PostgreSQL",
     level: "Intermedio",
     percentage: 70,
   },
@@ -48,13 +53,13 @@ export const skills = [
 
 export const experiences = [
   {
-    title: "Practicante Banco de Credito del Peru",
+    title: "Practicante Banco de Crédito del Perú",
     task1:
-    "Automatización y forecasting de las proyecciones de gastos e inversión (Real y presupuestado) en Excel VBA (macros) y análisis de las desviaciones.",
+    "Automatización y creación de modelos predictivos de las proyecciones, gastos e inversión (Real y presupuestado) en Excel VBA (macros) y análisis de las desviaciones.",
     task2:
-    "Procesamiento, explotación, automatizacion y análisis de datos para la creacion de dashboards para la gestión de proyectos TI.",
+    "Recolección, procesamiento, explotación, automatización y análisis de datos estructurados para la creación de Dashboards para la gestión de Proyectos TI.",
     task3:
-    "Diseño y creación de una interfaz IU para el costeo de tribus de negocio, mediante VBA (formularios) para facilitar el llenado de la información de los Products Owners.",
+    "Diseño y creación de una interfaz de usuario (IU) para el costeo de tribus de negocio, mediante VBA (formularios) para facilitar el llenado de la información de los Products Owners.",
     from: 2021,
     to: 2022,
   }
@@ -78,18 +83,26 @@ export const experiences = [
 export const certifications = [
 
   {
+    title: "Especialización completa en Python",
+    institution: "Udemy",
+    description:
+    "Curso de especialidad en Python y librerías necesarias para el análisis de datos.",
+
+  },
+
+  {
     title: "Especialización en Data Analytics",
+    institution: "Netzun",
     description:
     "Especialización de 11 cursos para el uso de las herramientas usadas en todo el proceso de Data Analytics.",
-    from: 2022,
 
   },
 
   {
     title: "Especialización en Business Intelligence",
+    institution: "Netzun",
     description:
     "Especialización de 3 cursos para el uso de las distintas herramientas para la visualización de datos.",
-    from: 2022,
 
   }
 ];
@@ -115,6 +128,14 @@ export const languages = [
 ];
 
 export const projects = [
+  {
+    name: "Dni Data App",
+    description:
+      "Aplicación que consulta datos de una api rest dummy de la reniec. Desarrollada en React.",
+    link: "https://andycruz47.github.io/dni-data-app/",
+    image: "dnidataapp.jpg",
+  },
+
   {
     name: "Expansión de la Industria Textil",
     description:

@@ -14,7 +14,7 @@ const Index = () => (
               <img src="/andy-cruz-profile.jpg" alt="img-profile" className="img-size" />
             </div>
             <div className="col-md-8">
-              <h1>Andy Cruz</h1>
+              <h1 className="font-weight-bold">Andy Cruz</h1>
               <h3>Data Analyst | Python | SQL | Tableau | Power BI | PL/SQL</h3>
               <p>
               Egresado en la carrera de Ingeniería de Sistemas en la Universidad Nacional de Ingeniería, con experiencia en análisis de datos, base de datos y programación, con mucho interés en el mundo de los datos: Data Science, Data Analytics y Data Engineering.
@@ -33,7 +33,7 @@ const Index = () => (
       <div className="col-md-4 py-2">
         <div className="card bg-dark animate__animated animate__fadeInLeft">
           <div className="card-body">
-            <h1>Habilidades</h1>
+            <h2 className="font-weight-bold">Habilidades</h2>
 
             {/* Skill Progress  */}
             {skills.map(({ skill, percentage, level }, i) => (
@@ -60,15 +60,15 @@ const Index = () => (
       <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
         {/* Experience */}
           <div className="card-body">
-            <h1>Experiencia</h1>
+            <h2 className="font-weight-bold">Experiencia</h2>
             <ul>
               {/* List Item Experience */}
-              {experiences.map(({ title,from,task1,task2,task3,task4, to  }, index) => (
+              {experiences.map(({ title,from,task1,task2,task3, to  }, index) => (
                 <li key={index}>
-                  <h3>{title}</h3>
-                  <h5>
+                  <h5 className="text-dark font-weight-bold">{title}</h5>
+                  <h6>
                     {from} {to ? `- ${to}` : "- current"}
-                  </h5>
+                  </h6>
                   <p>
                     {task1}
                   </p>
@@ -86,15 +86,13 @@ const Index = () => (
         {/* Certifications */}
         <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
         <div className="card-body">
-            <h1>Certificaciones y cursos</h1>
+            <h2 className="font-weight-bold">Certificaciones y cursos</h2>
             <ul>
               {/* List Item Certifications */}
-              {certifications.map(({title,description, from, to  }, index) => (
+              {certifications.map(({title,description, institution }, index) => (
                 <li key={index}>
-                  <h3>{title}</h3>
-                  <h5>
-                    {from} {to ? `- ${to}` : "- current"}
-                  </h5>
+                  <h5 className="text-dark font-weight-bold">{title}</h5>
+                  <h6>{institution}</h6>
                   <p>
                     {description}
                   </p>
@@ -107,15 +105,15 @@ const Index = () => (
          {/* Education */}
          <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
           <div className="card-body">
-            <h1>Educacion Universitaria</h1>
+            <h2 className="font-weight-bold">Educación Universitaria</h2>
             <ul>
               {/* List Item Educations */}
               {educations.map(({title,description, from, to  }, index) => (
                 <li key={index}>
-                  <h3>{title}</h3>
-                  <h5>
+                  <h5 className="text-dark font-weight-bold">{title}</h5>
+                  <h6>
                     {from} {to ? `- ${to}` : "- current"}
-                  </h5>
+                  </h6>
                   <p>
                     {description}
                   </p>
@@ -128,13 +126,13 @@ const Index = () => (
           {/* Languages */}
           <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
           <div className="card-body">
-            <h1>Idiomas</h1>
+            <h2 className="font-weight-bold">Idiomas</h2>
             <ul>
               {/* List Item Educations */}
               {languages.map(({language,level}, index) => (
                 <li key={index}>
-                  <h3>{language}</h3>
-                  <h6>{level}</h6>
+                  <h5 className="text-dark font-weight-bold">{language}</h5>
+                  <p>{level}</p>
                 </li>
               ))}
             </ul>
@@ -152,7 +150,7 @@ const Index = () => (
           <div className="card card-body bg-dark">
             <div className="row">
               <div className="col-md-12 my-2">
-                <h1 className="text-center text-light">Proyectos</h1>
+                <h1 className="text-center text-light font-weight-bold">Proyectos</h1>
               </div>
               {projects.map(({ name, description, link,image }, index) => (
                 <div className="col-md-4 p-2" key={index}>
@@ -167,10 +165,10 @@ const Index = () => (
                       </a>
                     </div>
                     <div className="card-body">
-                      <h3>{name}</h3>
-                      <p>{description}</p>
+                      <h4 className="font-weight-bold">{name}</h4>
+                      <p className="text-justify">{description}</p>
                       
-                      <a href={`${link}`}>Conoce mas</a>
+                      <a href={`${link}`}>Conoce más</a>
 
                     </div>
                   </div>
@@ -180,7 +178,7 @@ const Index = () => (
               <div className="col-md-12 mt-4">
                 <div className="text-center">
                   <Link href="https://github.com/andycruz47?tab=repositories">
-                    <a className="btn btn-outline-light">Mas proyectos</a>
+                    <a className="btn btn-outline-light">Más proyectos</a>
                   </Link>
                 </div>
               </div>

@@ -32,7 +32,7 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
       <main className="container py-4">
         {/* Title */}
         {title && (
-          <h1 className={classNames("text-center", { "text-light": dark })}>
+          <h1 className={classNames("text-center", { "text-light": dark },"font-weight-bold")}>
             {title}
           </h1>
         )}
@@ -44,9 +44,9 @@ const Layout = ({ children, title, footer = true, dark = false }) => {
       {footer && (
         <footer className="bg-dark text-light text-center">
           <div className="container p-4">
-            <h1>&copy; Andy Cruz Portfolio</h1>
-            <p>2021 - {new Date().getFullYear()}</p>
-            <p>All rights Reserved.</p>
+            <h3>&copy; Andy Cruz Portfolio</h3>
+            <h6>2021 - {new Date().getFullYear()}</h6>
+            <h6>All rights Reserved.</h6>
           </div>
         </footer>
       )}
