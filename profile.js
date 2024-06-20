@@ -1,8 +1,18 @@
 export const skills = [
   {
-    skill: "Excel, VBA (Macros), Power Query y Power Pivot",
+    skill: "Excel VBA (Macros)",
     level: "Avanzado",
     percentage: 100,
+  },
+  {
+    skill: "Power Query",
+    level: "Avanzado",
+    percentage: 100,
+  },
+  {
+    skill: "Dax",
+    level: "Intermedio",
+    percentage: 70,
   },
   {
     skill: "Python",
@@ -10,19 +20,14 @@ export const skills = [
     percentage: 100,
   },
   {
-    skill: "SQLServer, Oracle",
+    skill: "SQL Server",
     level: "Avanzado",
     percentage: 100,
   },
   {
-    skill: "Power BI",
-    level: "Intermedio",
-    percentage: 70,
-  },
-  {
-    skill: "Tableau",
-    level: "Intermedio",
-    percentage: 70,
+    skill: "Oracle",
+    level: "Avanzado",
+    percentage: 100,
   },
   {
     skill: "PL/SQL",
@@ -30,38 +35,47 @@ export const skills = [
     percentage: 70,
   },
   {
-    skill: "PostgreSQL",
+    skill: "Power BI",
     level: "Intermedio",
     percentage: 70,
   },
   {
-    skill: "R",
+    skill: "Git / GitHub",
     level: "Intermedio",
     percentage: 70,
   },
   {
-    skill: "Java",
+    skill: "Scrum",
     level: "Intermedio",
     percentage: 70,
   },
   {
-    skill: "HTML, CSS, JavaScript",
+    skill: "Metodologías Ágiles",
     level: "Intermedio",
-    percentage: 80,
+    percentage: 70,
   }
 ];
 
 export const experiences = [
   {
-    title: "Practicante Banco de Crédito del Perú",
-    task1:
-    "Automatización y creación de modelos predictivos de las proyecciones, gastos e inversión (Real y presupuestado) en Excel VBA (macros) y análisis de las desviaciones.",
-    task2:
-    "Recolección, procesamiento, explotación, automatización y análisis de datos estructurados para la creación de Dashboards para la gestión de Proyectos TI.",
-    task3:
-    "Diseño y creación de una interfaz de usuario (IU) para el costeo de tribus de negocio, mediante VBA (formularios) para facilitar el llenado de la información de los Products Owners.",
-    from: 2021,
-    to: 2022,
+    title: "Analista de Datos & Reporting - Penguin Random House",
+    exp1:
+    "Desarrollé un flujo de trabajo que permite la extracción, limpieza, procesamiento, de datos desde SAP para la creación, análisis y automatización de Reportes para el área Administración y Finanzas.",
+    exp2:
+    "Mejoré la gestión de TC (Forex) usando la API de la SBS para automatizar reportes utilizando Power Query y Macros VBA.",
+    exp3:
+    "Creación y automatización de Dashboards y Gráficos para el análisis de Ventas y Gestión de Stock en Power BI.",
+    from: "Mar 2023",
+    /*to: 2024, */
+    time: "(2 años)"
+  },
+  {
+    title: "Practicante Pre Profesional - Banco de Crédito del Perú",
+    exp1:
+    "Recolección, limpieza, procesamiento, explotación, automatización y análisis de datos estructurados para la creación de Dashboards para la gestión de Proyectos TI",
+    from: "Ago 21",
+    to: "Set 22",
+    time: "(1 año)"
   }
   /*
   {
@@ -83,13 +97,12 @@ export const experiences = [
 export const certifications = [
 
   {
-    title: "Especialización completa en Python",
-    institution: "Udemy",
+    title: "Nanodegree AI Programming with Python",
+    institution: "Udacity",
     description:
-    "Curso de especialidad en Python y librerías necesarias para el análisis de datos.",
+    "Nanodegree enfocado en la creación de modelos de IA con Python utilizando PyTorch, álgebra lineal, redes neuronales y Deep Learning.",
 
   },
-
   {
     title: "Especialización en Data Analytics",
     institution: "Netzun",
@@ -97,7 +110,6 @@ export const certifications = [
     "Especialización de 11 cursos para el uso de las herramientas usadas en todo el proceso de Data Analytics.",
 
   },
-
   {
     title: "Especialización en Business Intelligence",
     institution: "Netzun",

@@ -15,9 +15,9 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1 className="font-weight-bold">Andy Cruz</h1>
-              <h3>Data Analyst | Python | SQL | Tableau | Power BI | PL/SQL</h3>
+              <h3>Data Analyst | Python | SQL | DAX | Power BI | PL/SQL</h3>
               <p>
-              Egresado en la carrera de Ingeniería de Sistemas en la Universidad Nacional de Ingeniería, con experiencia en análisis de datos, base de datos y programación, con mucho interés en el mundo de los datos: Data Science, Data Analytics y Data Engineering.
+              Bachiller en Ingeniería de Sistemas en la Universidad Nacional de Ingeniería, con experiencia en análisis de datos, base de datos y programación, con mucho interés en el mundo de los Datos.
               </p>
               <Link href="/github">
                 <a className="btn btn-outline-light" >Contactame</a>
@@ -63,20 +63,20 @@ const Index = () => (
             <h2 className="font-weight-bold">Experiencia</h2>
             <ul>
               {/* List Item Experience */}
-              {experiences.map(({ title,from,task1,task2,task3, to  }, index) => (
+              {experiences.map(({ title, from, exp1, exp2, exp3, to, time  }, index) => (
                 <li key={index}>
                   <h5 className="text-dark font-weight-bold">{title}</h5>
-                  <h6>
-                    {from} {to ? `- ${to}` : "- current"}
+                  <h6 className="font-weight-bold">
+                    {from} {to ? `- ${to}` : "- Actualidad"} {time}
                   </h6>
                   <p>
-                    {task1}
+                    {exp1}
                   </p>
                   <p>
-                    {task2}
+                    {exp2}
                   </p>
                   <p>
-                    {task3}
+                    {exp3}
                   </p>
                 </li>
               ))}
@@ -92,7 +92,7 @@ const Index = () => (
               {certifications.map(({title,description, institution }, index) => (
                 <li key={index}>
                   <h5 className="text-dark font-weight-bold">{title}</h5>
-                  <h6>{institution}</h6>
+                  <h6 className="font-weight-bold">{institution}</h6>
                   <p>
                     {description}
                   </p>
@@ -111,7 +111,7 @@ const Index = () => (
               {educations.map(({title,description, from, to  }, index) => (
                 <li key={index}>
                   <h5 className="text-dark font-weight-bold">{title}</h5>
-                  <h6>
+                  <h6 className="font-weight-bold">
                     {from} {to ? `- ${to}` : "- current"}
                   </h6>
                   <p>
