@@ -10,7 +10,7 @@ export const skills = [
     percentage: 100,
   },
   {
-    skill: "Dax",
+    skill: "DAX",
     level: "Intermedio",
     percentage: 70,
   },
@@ -65,7 +65,7 @@ export const experiences = [
     "Mejoré la gestión de TC (Forex) usando la API de la SBS para automatizar reportes utilizando Power Query y Macros VBA.",
     exp3:
     "Creación y automatización de Dashboards y Gráficos para el análisis de Ventas y Gestión de Stock en Power BI.",
-    from: "Mar 2023",
+    from: "Mar 23",
     /*to: 2024, */
     time: "(2 años)"
   },
@@ -141,6 +141,14 @@ export const languages = [
 
 export const projects = [
   {
+    name: "Flower Image Classifier",
+    description:
+      "Clasificador que permite reconocer diversos tipos de flores según la imagen ingresada con la ayuda del Deep Learning",
+    link: "https://github.com/andycruz47/image-classifier-udacity/blob/master/Image%20Classifier%20Project.ipynb",
+    image: "flowerclassifier.jpg",
+  },
+
+  {
     name: "Dni Data App",
     description:
       "Aplicación que consulta datos de una api rest dummy de la reniec. Desarrollada en React.",
@@ -177,14 +185,8 @@ export const projects = [
       "Keylogger desarrollado en Python que se ejecuta tanto en el sistema operativo Linux como en Windows.",
     link: "https://github.com/andycruz47/Keylogger",
     image: "keylogger.jpg",
-  },
-  {
-    name: "Simulador de un Sistema Operativo",
-    description:
-      "Simulador de un sistema operativo basado en UNIX, desarrollado con el lenguaje de programacion Java.",
-    link: "https://github.com/andycruz47/Simulador-de-SO",
-    image: "simuladorSO.jpg",
   }
+ 
 ];
 
 export const posts = [
