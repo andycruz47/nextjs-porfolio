@@ -145,7 +145,7 @@ export const projects = [
     description:
       "Clasificador que permite reconocer diversos tipos de flores según la imagen ingresada con la ayuda del Deep Learning",
     link: "https://github.com/andycruz47/image-classifier-udacity/blob/master/Image%20Classifier%20Project.ipynb",
-    image: "flowerclassifier.jpg",
+    image: "imageclassifier.jpg",
   },
 
   {
