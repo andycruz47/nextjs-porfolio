@@ -14,9 +14,15 @@ const Github = ({ user, statusCode }) => {
             <h2 className="font-weight-bold">{user.name}</h2>
             <img src={user.avatar_url} alt="" style={{ width: "100%" }} />
             <p>{user.bio}</p>
-
-              <a > +51 949156354 </a>
               <a> andy.cruz.h@uni.pe</a> 
+
+              <a
+              href="https://wa.me/51965447329"
+              target="_blank"
+              className="btn btn-outline-secondary my-1"
+            >
+              Mi Whatsapp (Business)
+            </a>
             <a
               href="https://www.linkedin.com/in/andy-cruz-761bb21ba/"
               target="_blank"

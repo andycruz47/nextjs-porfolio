@@ -15,9 +15,9 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1 className="font-weight-bold">Andy Cruz</h1>
-              <h3>Data Analyst | Python | SQL | DAX | Power BI | PL/SQL</h3>
+              <h3>Data Analyst | Freelance | Python | SQL | DAX | Power BI | PL/SQL</h3>
               <p>
-              Bachiller en Ingeniería de Sistemas en la Universidad Nacional de Ingeniería, con experiencia en análisis de datos, base de datos y programación, con mucho interés en el mundo de los Datos.
+              Bachiller en Ingeniería de Sistemas en la Universidad Nacional de Ingeniería, con 3 años de experiencia en análisis de datos, base de datos y programación, con mucho interés en el mundo de los Datos.
               </p>
               <Link href="/github">
                 <a className="btn btn-outline-light" >Contactame</a>
@@ -29,119 +29,112 @@ const Index = () => (
     </header>
 
     {/* Second section */}
-    <section className="row text-light">
-      <div className="col-md-4 py-2">
-        <div className="card bg-dark animate__animated animate__fadeInLeft">
-          <div className="card-body">
-            <h2 className="font-weight-bold">Habilidades</h2>
+  <section className="row text-light">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4 py-2">
+            <div className="card bg-dark animate__animated animate__fadeInLeft">
+              <div className="card-body">
+                <h2 className="font-weight-bold">Habilidades</h2>
 
-            {/* Skill Progress  */}
-            {skills.map(({ skill, percentage, level }, i) => (
-              <div className="py-3" key={i}>
-                <h5>{skill}</h5>
-                <h6>{level}</h6>
-                <div className="progress ">
-                  <div
-                    className="progress-bar"
-                    role="progressbar"
-                    style={{ width: `${percentage}%` }}
-                    aria-valuenow="50"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
+                {/* Skill Progress  */}
+                {skills.map(({ skill, percentage, level }, i) => (
+                  <div className="py-3 mb-1" key={i}>
+                    <h5>{skill}</h5>
+                    <h6>{level}</h6>
+                    <div className="progress ">
+                      <div
+                        className="progress-bar"
+                        role="progressbar"
+                        style={{ width: `${percentage}%` }}
+                        aria-valuenow="50"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+        <div className="col-md-8 py-2">
+          <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
+            {/* Experience */}
+            <div className="card-body">
+              <h2 className="font-weight-bold">Experiencia</h2>
+                <ul>
+                  {/* List Item Experience */}
+                  {experiences.map(({ title, from, exp1, exp2, exp3, to, time  }, index) => (
+                    <li key={index}>
+                      <h5 className="text-dark font-weight-bold">{title}</h5>
+                      <h6 className="font-weight-bold">
+                        {from} {to ? `- ${to}` : "- Actualidad"} {time}
+                      </h6>
+                      <p>{exp1}</p>
+                      <p>{exp2}</p>
+                      <p>{exp3}</p>
+                    </li>
+                  ))}
+                </ul>
+            </div>
+
+            {/* Certifications */}
+            <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
+              <div className="card-body">
+                  <h2 className="font-weight-bold">Certificaciones y cursos</h2>
+                  <ul>
+                    {/* List Item Certifications */}
+                    {certifications.map(({title,description, institution }, index) => (
+                      <li key={index}>
+                        <h5 className="text-dark font-weight-bold">{title}</h5>
+                        <h6 className="font-weight-bold">{institution}</h6>
+                        <p>{description}</p>
+                      </li>
+                    ))}
+                  </ul>
+              </div>
+            </div>
+
+            {/* Education */}
+            <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
+                <div className="card-body">
+                  <h2 className="font-weight-bold">Educación Universitaria</h2>
+                  <ul>
+                    {/* List Item Educations */}
+                    {educations.map(({title,description, from, to  }, index) => (
+                      <li key={index}>
+                        <h5 className="text-dark font-weight-bold">{title}</h5>
+                        <h6 className="font-weight-bold">
+                          {from} {to ? `- ${to}` : "- current"}
+                        </h6>
+                        <p>{description}</p>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </div>
 
-      <div className="col-md-8 py-2">
-      <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
-        {/* Experience */}
-          <div className="card-body">
-            <h2 className="font-weight-bold">Experiencia</h2>
-            <ul>
-              {/* List Item Experience */}
-              {experiences.map(({ title, from, exp1, exp2, exp3, to, time  }, index) => (
-                <li key={index}>
-                  <h5 className="text-dark font-weight-bold">{title}</h5>
-                  <h6 className="font-weight-bold">
-                    {from} {to ? `- ${to}` : "- Actualidad"} {time}
-                  </h6>
-                  <p>
-                    {exp1}
-                  </p>
-                  <p>
-                    {exp2}
-                  </p>
-                  <p>
-                    {exp3}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-        {/* Certifications */}
-        <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
-        <div className="card-body">
-            <h2 className="font-weight-bold">Certificaciones y cursos</h2>
-            <ul>
-              {/* List Item Certifications */}
-              {certifications.map(({title,description, institution }, index) => (
-                <li key={index}>
-                  <h5 className="text-dark font-weight-bold">{title}</h5>
-                  <h6 className="font-weight-bold">{institution}</h6>
-                  <p>
-                    {description}
-                  </p>
-                </li>
-              ))}
-            </ul>
+              {/* Languages */}
+              <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
+                <div className="card-body">
+                  <h2 className="font-weight-bold">Idiomas</h2>
+                  <ul>
+                    {/* List Item Educations */}
+                    {languages.map(({language,level}, index) => (
+                      <li key={index}>
+                        <h5 className="text-dark font-weight-bold">{language}</h5>
+                        <p>{level}</p>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
             </div>
-            </div>
-
-         {/* Education */}
-         <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
-          <div className="card-body">
-            <h2 className="font-weight-bold">Educación Universitaria</h2>
-            <ul>
-              {/* List Item Educations */}
-              {educations.map(({title,description, from, to  }, index) => (
-                <li key={index}>
-                  <h5 className="text-dark font-weight-bold">{title}</h5>
-                  <h6 className="font-weight-bold">
-                    {from} {to ? `- ${to}` : "- current"}
-                  </h6>
-                  <p>
-                    {description}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </div>
-          </div>
-
-          {/* Languages */}
-          <div className=" card bg-light text-dark animate__animated animate__fadeInRight">
-          <div className="card-body">
-            <h2 className="font-weight-bold">Idiomas</h2>
-            <ul>
-              {/* List Item Educations */}
-              {languages.map(({language,level}, index) => (
-                <li key={index}>
-                  <h5 className="text-dark font-weight-bold">{language}</h5>
-                  <p>{level}</p>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
-        </div>
-        </div>
-      
-    </section>  
+      </div>  
+  </div>    
+  </section>  
 
     {/* Porfolio */}
     <section>
@@ -166,10 +159,8 @@ const Index = () => (
                     </div>
                     <div className="card-body">
                       <h4 className="font-weight-bold">{name}</h4>
-                      <p className="text-justify">{description}</p>
-                      
+                      <p className="text-justify">{description}</p>  
                       <a href={`${link}`}>Conoce más</a>
-
                     </div>
                   </div>
                 </div>

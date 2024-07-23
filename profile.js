@@ -143,9 +143,25 @@ export const projects = [
   {
     name: "Flower Image Classifier",
     description:
-      "Clasificador que permite reconocer diversos tipos de flores según la imagen ingresada con la ayuda del Deep Learning",
+      "Clasificador que permite reconocer diversos tipos de flores según la imagen ingresada con la ayuda del Deep Learning.",
     link: "https://github.com/andycruz47/image-classifier-udacity/blob/master/Image%20Classifier%20Project.ipynb",
     image: "imageclassifier.jpg",
+  },
+
+  {
+    name: "Dashboard Exchange SBS",
+    description:
+      "Dashboard hecho en Python que se conecta a una API para traer el Tipo de Cambio de la SBS.",
+    link: "https://dashboard-exchange-venta.streamlit.app/",
+    image: "dashboardsbs.jpg",
+  },
+
+  {
+    name: "Dashboard Sales",
+    description:
+      "Dashboard realizado en Power BI que permite visualizar el histórico de ventas 2007 - 2019.",
+    link: "https://github.com/andycruz47/image-classifier-udacity/blob/master/Image%20Classifier%20Project.ipynb",
+    image: "dashboardpowerbi.jpg",
   },
 
   {
@@ -156,6 +172,7 @@ export const projects = [
     image: "dnidataapp.jpg",
   },
 
+  /*
   {
     name: "Expansión de la Industria Textil",
     description:
@@ -163,7 +180,7 @@ export const projects = [
     link: "https://public.tableau.com/views/nalisisdelaExpansionenlaIndustriaTextilenAustralia/Presentacionfinal?:language=es-ES&:display_count=n&:origin=viz_share_link",
     image: "textil.jpg",
   },
-
+ */
   {
     name: "BlockRentPE",
     description:
@@ -172,6 +189,7 @@ export const projects = [
     image: "blockrentpe.jpg",
   },
 
+  /*
   {
     name: "Modelo Propagación de Fake News",
     description:
@@ -179,6 +197,7 @@ export const projects = [
     link: "https://github.com/andycruz47/fakenews",
     image: "fakenews.jpg",
   },
+  */
   {
     name: "Keylogger hecho en Python",
     description:
