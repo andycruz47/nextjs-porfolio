@@ -160,7 +160,7 @@ export const projects = [
     name: "Dashboard Sales",
     description:
       "Dashboard realizado en Power BI que permite visualizar el histórico de ventas 2007 - 2019.",
-    link: "https://github.com/andycruz47/image-classifier-udacity/blob/master/Image%20Classifier%20Project.ipynb",
+    link: "https://app.powerbi.com/view?r=eyJrIjoiMDY3NDI0YTYtYzhjMS00NGU0LTkxOGQtM2UyMzkyZTgzZjdlIiwidCI6IjFlYmE0NDNmLTIzZTUtNDUzNC05MGQxLTA5NzZhYWJlODZhYyIsImMiOjR9",
     image: "dashboardpowerbi.jpg",
   },
 
