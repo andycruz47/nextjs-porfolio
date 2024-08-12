@@ -14,7 +14,13 @@ const Github = ({ user, statusCode }) => {
             <h2 className="font-weight-bold">{user.name}</h2>
             <img src={user.avatar_url} alt="" style={{ width: "100%" }} />
             <p>{user.bio}</p>
-              <a> andy.cruz.h@uni.pe</a> 
+              <a
+               href="mailto:andy.cruz.h@uni.pe"
+               target="_blank"
+               className="btn btn-outline-secondary my-1"
+               > 
+               Mi Correo
+              </a> 
 
               <a
               href="https://wa.me/51965447329"
@@ -23,6 +29,7 @@ const Github = ({ user, statusCode }) => {
             >
               Mi Whatsapp (Business)
             </a>
+
             <a
               href="https://www.linkedin.com/in/andy-cruz-761bb21ba/"
               target="_blank"
@@ -33,7 +40,7 @@ const Github = ({ user, statusCode }) => {
             <a
               href={user.html_url}
               target="_blank"
-              className="btn btn-outline-secondary"
+              className="btn btn-outline-secondary my-1"
             >
               Mi Github
             </a>

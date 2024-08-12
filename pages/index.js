@@ -20,7 +20,7 @@ const Index = () => (
               Bachiller en Ingeniería de Sistemas en la Universidad Nacional de Ingeniería, con 3 años de experiencia en análisis de datos, base de datos y programación, con mucho interés en el mundo de los Datos.
               </p>
               <Link href="/github">
-                <a className="btn btn-outline-light" >Contactame</a>
+                <a className="btn btn-primary" >Contactame</a>
               </Link>
             </div>
           </div>
